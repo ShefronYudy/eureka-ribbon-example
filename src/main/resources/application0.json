@@ -1,0 +1,37 @@
+{"instance":{
+	"instanceId": "i-00000000",
+	"app": "APPLICATION0",
+	"appGroupName": "APPLICATION0GROUP",
+	"ipAddr": "20.0.0.0",
+	"sid": "na",
+	"homePageUrl": "http://instance0.application0.com:8080/homepage",
+	"statusPageUrl": "http://instance0.application0.com:8080/status",
+	"healthCheckUrl": "http://instance0.application0.com:8080/healthcheck",
+	"secureHealthCheckUrl": "https://instance0.application0.com:8081/healthcheck",
+	"vipAddress": "application0:8080",
+	"secureVipAddress": "application0:8081",
+	"countryId": 1,
+	"dataCenterInfo": {
+		"@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+		"name": "MyOwn"
+	},
+	"hostName": "instance0.application0.com",
+	"status": "UP",
+	"leaseInfo": {
+		"renewalIntervalInSecs": 5,
+		"durationInSecs": 15,
+		"registrationTimestamp": 1534841554176,
+		"lastRenewalTimestamp": 1534841554181,
+		"evictionTimestamp": 1534841554191,
+		"serviceUpTimestamp": 1534841554171
+	},
+	"isCoordinatingDiscoveryServer": true,
+	"metadata": {
+		"appKey0": "0"
+	},
+	"lastUpdatedTimestamp": 1534841554081,
+	"lastDirtyTimestamp": 1534841554081,
+	"actionType": "ADDED",
+	"asgName": "application0ASG",
+	"overriddenStatus": "UNKNOWN"
+}}
